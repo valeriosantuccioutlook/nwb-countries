@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+         {
+              "name": "NWB Countries",
+              "type": "python",
+              "request": "launch",
+              "module": "main",
+              "justMyCode": false,
+              "cwd":"${workspaceFolder}/app",
+              "env": {
+              "PYTHONPATH": "${workspaceFolder}"
+              }
+         },
+         {
+          "name": "NWB Countries: Tests",
+          "type": "python",
+          "justMyCode": false,
+          "request": "launch",
+          "module": "pytest",
+          "cwd":"${workspaceFolder}/app",
+              "env": {
+              "PYTHONPATH": "${workspaceFolder}"
+              }
+      }
+    ]
+}

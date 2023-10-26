@@ -1,0 +1,4 @@
+APP_VERSION=1
+
+COUNTRIES_BASE_URL=https://restcountries.com/v3.1/name
+COUNTRIES_BASE_URL_QUERY='?fullText=true'
